@@ -40,7 +40,7 @@ public class ExceptionThrower {
                         doNothing(); 
                 }
                 catch (Exception e){ 
-                        throw new Exception("TEST MESSAGE"); 
+                        throw new Exception("TEST MESSAGE");
                 }
         }
 }
