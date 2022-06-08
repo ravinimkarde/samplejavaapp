@@ -74,7 +74,7 @@ public class PropertyLoader
 			} 
 			else { 
 				name = name.replace ('.', '/'); 
-				if (! name.endsWith (SUFFIX)) name = name.concat (SUFFIX); // Returns null on lookup failures: 
+				if (! name.endsWith (SUFFIX)) name = name.concat (SUFFIX); //// Returns null on lookup failures: 
 				if(loader!=null)
 					in = loader.getResourceAsStream (name); 
 				if (in != null) { 
