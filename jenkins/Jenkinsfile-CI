@@ -34,6 +34,7 @@ pipeline {
 	   steps {
                 echo 'codecoverage..'
 		sh script: 'java -version'
+		sh script: 'hostname -i'
 		//sh script: 'mvn cobertura:cobertura -Dcobertura.report.format=xml'
            }
 //	   post {
